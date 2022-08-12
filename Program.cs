@@ -5,7 +5,7 @@ m = 3, n = 4.
 1 -3,3 8 -9,9
 8 7,8 -7,1 9 */
 
-/* 
+ 
 
 double[,] CreateRandom2dArrayDouble(int rows, int colums, int minValue, int maxValue) // рандомное заполнение двумерного массива вещественными числами
 {
@@ -46,7 +46,7 @@ int maxValue = Convert.ToInt32(Console.ReadLine());
 double[,] array = CreateRandom2dArrayDouble(rows, colums, minValue, maxValue);
 Show2dArrayDouble(array); 
 
-*/
+
 
 
 /* Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
@@ -57,7 +57,7 @@ Show2dArrayDouble(array);
 8 4 2 4
 17 -> такого числа в массиве нет */
 
-/* 
+ 
 void FindElement(int[,] array, int posRows, int posColums)
 {
     if (posRows < array.GetLength(0) && posColums < array.GetLength(1))
@@ -81,7 +81,7 @@ int colums = Convert.ToInt32(Console.ReadLine());
 
 FindElement(array, rows, colums);
 
- */
+ 
 /* Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 Например, задан массив:
 1 4 7 2
